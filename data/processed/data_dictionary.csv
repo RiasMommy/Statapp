@@ -1,0 +1,44 @@
+column,description,type
+league,Ligue et pays,catégorie
+season,"Saison (année de fin, ex: 2020)",numérique (int)
+team,Nom du club,catégorie
+player,Nom du joueur,catégorie
+nation,Nationalité du joueur (code 3 lettres),catégorie
+pos,Poste principal (GK/DF/MF/FW),catégorie
+age,Âge du joueur durant la saison,numérique (float)
+born_year,Année de naissance,numérique (float)
+minutes,Minutes jouées en championnat,numérique (float)
+gls,Buts marqués (sans précision sur penalty),numérique
+ast,Passes décisives,numérique
+g_plus_a,Buts + passes décisives,numérique
+g_minus_pk,Buts hors penalty (G-PK),numérique
+pk,Penaltys marqués,numérique
+pk_att,Penaltys tentés,numérique
+crdy,Cartons jaunes,numérique
+crdr,Cartons rouges,numérique
+xg,xG total (expected goals),numérique
+npxg,xG hors penalties,numérique
+xag,xAG total (expected assists),numérique
+npxg_plus_xag,npxG + xAG,numérique
+prgc,Progressive carries (ballons portés vers l’avant),numérique
+prgp,Progressive passes,numérique
+prgr,Progressive passes received,numérique
+gls_per90,Buts par 90 minutes,numérique
+ast_per90,Passes décisives par 90 minutes,numérique
+g_plus_a_per90,Buts + passes décisives par 90,numérique
+xg_per90,xG par 90,numérique
+xag_per90,xAG par 90,numérique
+xg_plus_xag_per90,xG + xAG par 90,numérique
+npxg_per90,npxG par 90,numérique
+npxg_plus_xag_per90,npxG + xAG par 90,numérique
+touches,Touches de balle totales,numérique
+tackles_won,Tacles gagnés,numérique
+interceptions,Interceptions,numérique
+blocks,Tirs/passes bloqués,numérique
+dribbles_succeeded,Dribbles réussis,numérique
+dribbles_attempted,Dribbles tentés,numérique
+passes_completed_long,Passes longues réussies,numérique
+prog_passes,Passes progressives,numérique
+prog_carries,Conduites de balle progressives,numérique
+shots_total,Tirs totaux,numérique
+shots_on_target,Tirs cadrés,numérique
